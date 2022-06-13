@@ -76,7 +76,7 @@ function myfun(){
     var size = pasArray.length;
     var ans = "";
     for(var i = 0; i<num; i++){
-        var randm = Math.floor(Math.random()*size + 1);
+        var randm = Math.floor(Math.random()*size);
         ans = ans.concat(pasArray[randm]);
     }
     document.getElementById('answer').innerHTML = ans;
